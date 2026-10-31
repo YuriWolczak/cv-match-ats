@@ -1,18 +1,19 @@
-# CV Match — Analisador de Currículo ATS
+# NexoCV — análise de currículo e vaga
 
-Protótipo de portfólio inspirado em ferramentas de comparação de currículo com vagas. A interface ajuda a visualizar correspondências textuais e oportunidades de revisão.
+Protótipo de portfólio para comparar o texto de um currículo com os requisitos de uma vaga. O NexoCV destaca termos coincidentes e pontos para revisar em uma interface original, responsiva e acessível.
 
 ## O que funciona
 
-- Carregar ou arrastar arquivos `.txt` e `.md` (até 2 MB).
-- Colar a descrição de uma vaga e conferir uma estimativa de termos encontrados.
-- Usar um exemplo demonstrativo para explorar o fluxo.
-- Processar o texto localmente no navegador; o protótipo não envia nem armazena currículos em servidor.
-- Interface responsiva, com avisos claros sobre as limitações da pontuação.
+- Carregar, arrastar ou colar um currículo em texto.
+- Comparar com uma descrição de vaga e ver termos coincidentes e não encontrados.
+- Usar um exemplo guiado para conhecer o fluxo.
+- Copiar ou baixar um resumo em `.txt`.
+- Processar tudo localmente no navegador, sem enviar ou armazenar currículos em servidor.
+- Usar em telas grandes ou celulares, com navegação por etapas e movimento reduzido respeitado.
 
 ## Limites do protótipo
 
-A nota é uma comparação simples de palavras-chave, sem modelo de IA, parsing de PDF/DOCX ou integração com sistemas ATS. Ela não prevê contratação, não mede qualidade profissional e não deve ser interpretada como pontuação oficial.
+A estimativa é uma comparação simples de palavras-chave, sem modelo de IA, leitura de PDF/DOCX ou integração com sistemas ATS. Ela não prevê contratação, não mede qualidade profissional e não deve ser interpretada como pontuação oficial.
 
 ## Executar
 
